@@ -1,0 +1,6 @@
+X = int(input())
+m = ((10/100)*X)
+v = (X-m)
+y = (X-100)
+q = min(v,y)
+print(int(q))
